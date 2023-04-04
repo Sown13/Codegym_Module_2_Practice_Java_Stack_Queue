@@ -14,7 +14,7 @@ public class GenericStackClient {
         stackString.push("fifth");
         System.out.println("Stack after push: " + stackString + " have size: " + stackString.size());
         stackString.pop();
-        System.out.println("Stack after pop: " + stackString + " have size: " + stackString.size() + "/Last in - First out/");
+        System.out.println("Stack after pop: " + stackString + " have size: " + stackString.size() + "  /Last in - First out/");
         while (!stackString.isEmpty()){
             stackString.pop();
         }
@@ -29,7 +29,7 @@ public class GenericStackClient {
         intStack.push(1);
         System.out.println("Stack after push: " + intStack + " have size: " + intStack.size());
         intStack.pop();
-        System.out.println("Stack after pop: " + intStack + " have size: " + intStack.size() + "/Last in - First out/");
+        System.out.println("Stack after pop: " + intStack + " have size: " + intStack.size() + " /Last in - First out/");
         while (!intStack.isEmpty()){
             intStack.pop();
         }
